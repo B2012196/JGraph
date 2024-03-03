@@ -1,0 +1,31 @@
+Trong thư viện JGraphX, lớp `mxGraphComponent` cung cấp một số phương thức quan trọng để tương tác với đồ thị và giao diện người dùng. Dưới đây là một số phương thức chính của `mxGraphComponent`:
+
+1. **setGraph(mxGraph graph)**: Thiết lập đối tượng `mxGraph` được liên kết với `mxGraphComponent`.
+
+2. **getGraph()**: Trả về đối tượng `mxGraph` được liên kết với `mxGraphComponent`.
+
+3. **getViewport()**: Trả về đối tượng `mxGraphComponent` đại diện cho khung nhìn hiện tại của đồ thị.
+
+4. **getGraphControl()**: Trả về đối tượng `mxGraphComponent` đại diện cho diện tích được dùng để hiển thị đồ thị.
+
+5. **setViewportBorder(Border border)**: Thiết lập viền cho khung nhìn của đồ thị.
+
+6. **getPreferredSizeForGraph()**: Trả về kích thước ưu tiên cho `mxGraphComponent` dựa trên kích thước của đồ thị.
+
+7. **zoomIn()**: Phóng to đồ thị hiện tại.
+
+8. **zoomOut()**: Thu nhỏ đồ thị hiện tại.
+
+9. **zoomActual()**: Phóng đồ thị về tỷ lệ thực tế.
+
+10. **refresh()**: Làm mới đồ thị, vẽ lại tất cả các phần tử và cập nhật giao diện người dùng.
+
+11. **zoom(double factor)**: Phóng đồ thị với một hệ số nhân xác định.
+
+12. **zoomToRect(Rectangle2D rect)**: Thay đổi tỷ lệ và vị trí của đồ thị để hiển thị diện tích cụ thể được chọn.
+
+13. **zoomAndCenter()**: Phóng đồ thị sao cho nó đầy đủ và tập trung.
+
+14. **scrollCellToVisible(Object cell)**: Di chuyển đỉnh đồ thị được xác định bởi `cell` vào vùng nhìn hiện tại.
+
+Đây là một số phương thức quan trọng trong `mxGraphComponent`. Bạn có thể tìm hiểu thêm về các phương thức khác và các tính năng bổ sung trong tài liệu tham khảo của JGraphX. 😊
